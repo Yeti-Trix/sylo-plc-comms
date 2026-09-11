@@ -1,0 +1,3 @@
+# sylo-plc-comms — CIP (ciplogix vendored wheel) + OPC UA (asyncua)
+# ciplogix installs from vendor/ciplogix/*.whl on demand; asyncua pip-installs on demand.
+asyncua>=2.0.0
