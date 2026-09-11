@@ -1,0 +1,43 @@
+{
+  "name": "sylo-plc-comms",
+  "version": "0.1.0",
+  "description": "PLC comms layer for Studio 5000/Logix — CIP (EtherNet/IP via ciplogix, vendored wheel) controller info + tag reads/writes, and OPC UA (asyncua) browse/read/write. No Logix Designer SDK required.",
+  "type": "module",
+  "keywords": [
+    "pi-package"
+  ],
+  "scripts": {},
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.84.2"
+  },
+  "dependencies": {
+    "typebox": "^1.1.24"
+  },
+  "license": "MIT",
+  "gitHead": "f05700bce9bf8ef8574894f24a8a3fa71da11d61",
+  "dist": {
+    "integrity": "sha512-si9tNTSgo3t/duu+NPOb/8FU5G1W/KIQy+h8ezECT1ZVygbWaRMU0QbXuM/pDYTkw68CaLa1FD1bePM40auSZw==",
+    "shasum": "228315947b4eafd4a30fdfd18574ba4431222fa1",
+    "tarball": "https://registry.npmjs.org/sylo-plc-comms/-/sylo-plc-comms-0.1.0.tgz",
+    "fileCount": 33,
+    "unpackedSize": 198528,
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEYCIQDab2Ulido+eQYehFyzwIKHtqKLVROZc38XxWkLcD6naAIhAMGzRvKAGq/+jfbyvMc1nolb3bhqM4p6taY3Ri2PCb/d"
+      }
+    ]
+  },
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "yeti-trix",
+      "email": "spencer.current@gmail.com"
+    }
+  ]
+}
