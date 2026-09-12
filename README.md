@@ -38,3 +38,10 @@ download allowlist as project downloads. The **canonical file lives in
 `ciplogix` installs on demand from `vendor/ciplogix/*.whl` (committed);
 `asyncua` pip-installs on demand (see `scripts/requirements.txt`). Runs on the
 same `SYLO_PYTHON` as the other controls packages — no SDK Python needed.
+
+
+## Install
+
+`pi install npm:sylo-plc-comms` — or from the **Capability manager → Pi.dev package catalog** in Sylo (it appears in the Sylo packages strip).
+
+Releases publish automatically from GitHub Actions (npm trusted publishing, with provenance): bump `version` in `package.json`, commit, tag `vX.Y.Z`, push the tag.
