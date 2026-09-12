@@ -1,6 +1,6 @@
 {
   "name": "sylo-plc-comms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PLC comms layer for Studio 5000/Logix — CIP (EtherNet/IP via ciplogix, vendored wheel) controller info + tag reads/writes, and OPC UA (asyncua) browse/read/write. No Logix Designer SDK required.",
   "type": "module",
   "keywords": [
